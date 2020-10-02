@@ -1,11 +1,12 @@
 #include <stdio.h>
-
+#include <conio.h>
 int main() {
-    char s[] = "Programming is fun";
     int i;
-
+    char s[20];
+    printf("Enter a String: ");                
+    gets(s);                                     //reading string input
     for (i = 0; s[i] != '\0'; ++i);
-    
-    printf("Length of the string: %d", i);
+    printf("Length of the String: %d", i);       //printng string length   
     return 0;
+    getch();
 }
