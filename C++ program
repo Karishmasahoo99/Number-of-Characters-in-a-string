@@ -7,8 +7,8 @@ int main(){
      string str;
      
     cout<<"Enter the string";
-    getline(cin,str);
-    
+    //getline(cin,str);
+    cin>>str;
     cout<<"Length of the string is "<<str.length();
     
     return 0;
